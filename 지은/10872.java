@@ -7,7 +7,11 @@ public class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         
         int n = Integer.parseInt(br.readLine());
-        bw.write(String.valueOf((n*n)-n));
+        int result = 1;
+        for(int i = 1; i<=n; i++) {
+            result *= i;
+        }
+        bw.write(String.valueOf(result));
         bw.flush();
         bw.close();
     }

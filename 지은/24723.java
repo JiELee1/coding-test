@@ -7,7 +7,7 @@ public class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         
         int n = Integer.parseInt(br.readLine());
-        bw.write(String.valueOf((n*n)-n));
+        bw.write(String.valueOf((int) Math.pow(2,n)));
         bw.flush();
         bw.close();
     }
