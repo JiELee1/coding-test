@@ -22,7 +22,6 @@ public class Main {
         sb.append(Math.round((double)hap/n)).append("\n");
         sb.append(arr[n/2]).append("\n");
 
-        //최빈값 구하는 구간
         int max = Collections.max(map.values());
         int count = 0;
         for(int key : map.keySet()) {
@@ -41,7 +40,6 @@ public class Main {
 
         if(count > 1) sb.append(k.get(1)).append("\n");
         else sb.append(k.get(0)).append("\n");
-        //까지
 
         sb.append(arr[n-1]-arr[0]).append("\n");
 
