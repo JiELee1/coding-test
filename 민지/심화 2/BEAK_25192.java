@@ -13,7 +13,7 @@ public class BEAK_25192 {
             if(nickName.equals("ENTER")){
                set.clear(); 
             }else{
-                if(set.contains(nickName)) continue;
+                if(set.contains(nickName)) continue; //중복되면 for문 다시 올라가기
                 set.add(nickName);
                 answer++;
             }
