@@ -1,5 +1,5 @@
 import java.io.*;
-
+// dp 로도 풀 수 있음
 public class BAEK_10870 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
